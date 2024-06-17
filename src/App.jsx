@@ -3,11 +3,13 @@ import React from "react";
 function App() {
 	return (
 		<>
-			<div className="bg-gray-900 h-screen text-center flex justify-center items-center flex-col place-items-center">
-				<p className="inline-block text-5xl font-extrabold  text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ">
-					React + Tailwind CSS
-				</p>
-			</div>
+			
+<a href="#" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+
+<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+<p class="font-normal text-gray-700 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas nec ante mollis pretium. Fusce porta, quam quis vehicula faucibus, lectus massa malesuada urna, ut posuere elit tellus in urna</p>
+</a>
+
 		</>
 	);
 }
